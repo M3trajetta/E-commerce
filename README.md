@@ -1,5 +1,5 @@
 ### CRWN CLOTHING
-This project has been developed to for solid understanding of Redux 
+Portfolio project developed using React and Redux
 
 This e-commerce website feature:
 - Products browsing by category
