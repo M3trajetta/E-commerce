@@ -5,5 +5,5 @@ This e-commerce website feature:
 - Products browsing by category
 - Adding to cart
 - Managing cart
-- Payment (TODO)
+- Payment using Stripe API (TODO)
 - DB to check stock (TODO)
