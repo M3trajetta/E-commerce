@@ -2,13 +2,13 @@ import React from 'react';
 import SignIn from '../../components/sign-in/sign-in.component';
 import SignUp from '../../components/sign-up/sign-up.component';
 
-import './auth.styles.scss';
+import { SignInAndSignOutContainer } from './auth.styles';
 
 const SignInAndSignOutPage = () => (
-  <div className="sign-in-and-sign-up">
+  <SignInAndSignOutContainer>
     <SignIn />
     <SignUp />
-  </div>
+  </SignInAndSignOutContainer>
 );
 
 export default SignInAndSignOutPage;
