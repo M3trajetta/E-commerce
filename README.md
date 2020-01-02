@@ -23,4 +23,4 @@ PS: To use the Google Signin / Signup you need to create a project in your googl
     ``` npm start ``` or ``` yarn start ```
     
 ### NOTE
- This project was done focusing learning React. Design was not the point of this project.
+ This project was done focusing on React. Design was not the point of this project.
