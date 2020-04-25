@@ -1,14 +1,13 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
-import './App.css';
-
 import Header from './components/header/header.component';
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import SignInAndSignOutPage from './pages/auth/auth.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import CurrentUserContext from './context/current-user/current-user.context';
+import { GlobalStyles } from './global.styles';
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
@@ -38,7 +37,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div>
+        <GlobalStyles />
         <CurrentUserContext.Provider value={this.state.currentUser}>
           <Header />
         </CurrentUserContext.Provider>
